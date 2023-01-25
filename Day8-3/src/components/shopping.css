@@ -1,0 +1,95 @@
+
+body{
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+
+}
+.wrapper ,.Total{
+    margin-top: 10%;
+border: 1px solid gray;
+width: 50vw;
+height: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding: 10px;
+background-color: palevioletred;
+border-radius: 15px;
+box-shadow: 10px 10px 10px 10px gray;
+}
+input[type="text"]{
+    width: 40vw;
+    height: 7vh;
+    border: 1px solid pink;
+    border-radius: 10px;
+    text-align: center;
+    background-color: pink;
+    color:palevioletred;
+    font-size: 25px;
+    outline-style: none;
+    margin-bottom: 2%;
+}
+.add-item{
+    border: 0;
+    width: 5vw;
+    position: absolute;
+    right: 30%;
+
+    height: 7vh;
+    border-radius: 20px;
+    font-size: 40px;
+    background-color: pink;
+    color:palevioletred;
+    outline-style: none;
+}
+.card{
+   
+    width: 40vw;
+    border-bottom: 2px solid white;
+}
+.normal , .dashed{
+    padding: 10px;
+    font-size: 30px;
+    color: white;
+    display: inline;
+    float: left;
+    width: 29vw;
+}
+input[type="checkbox"]{
+    margin-bottom: 20px;
+    display: inline;
+    float: left;
+    transform: scale(2);
+    margin-top: 6%;
+}
+.inc , .dec{
+    border: 0;
+    outline-style: none;
+    background-color: white;
+    color: palevioletred;
+    font-size: 30px;
+    border-radius: 100%;
+    margin-top: 15px;
+    
+}
+.count{
+    color: white;
+    font-size: 30px;
+}
+.dashed{
+    text-decoration: line-through;
+}
+.Total{
+    margin-top: 0;
+justify-content: end;
+    border: 0;
+    width: 50.2vw;
+    color: white;
+
+}
+.Total p{
+    font-size: 25px;
+    margin: 0;
+    margin-right: 65px;
+}
